@@ -6,7 +6,7 @@
 ---
 
 ## 🚀 Features
-- **Dark Mode Styling**: Overrides the default light theme with a sleek, visually appealing dark theme.
+- **Dark Mode Styling**: Overrides the default theme with a sleek, visually appealing dark theme.
 - **Dynamic Toggle**: Easily switch between light and dark modes using the popup interface.
 - **Persistent Settings**: Remembers your theme preference even after browser restarts.
 - **User-Friendly Interface**: Minimalistic design with an intuitive toggle switch.
