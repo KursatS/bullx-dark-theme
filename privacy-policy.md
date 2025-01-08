@@ -32,4 +32,4 @@ If you have any questions about this Privacy Policy, feel free to contact us at 
 
 ---
 
-Effective as of [Effective as of January 8, 2025]
+Effective as of [January 8, 2025]
