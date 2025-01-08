@@ -1,7 +1,7 @@
 # BullX Dark Theme Chrome Extension
 
 ## 🌌 Overview
-""BullX Dark Theme"" is a versatile browser extension designed to enhance your browsing experience on the neo.bullx.io platform. With compatibility for both Chrome and Firefox, this extension allows users to seamlessly switch between light and dark themes with just a click.
+""BullX Dark Theme"" is a versatile browser extension designed to enhance your browsing experience on the neo.bullx.io platform. With compatibility for both Chrome and Firefox, this extension allows users to seamlessly switch between default and dark themes with just a click.
 
 ---
 
@@ -14,6 +14,4 @@
 ---
 
 ## 🛠️ Installation
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/bullx-dark-theme.git
+
