@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "BullX Dark Theme",
+  "version": "1.0",
+  "description": "Custom dark theme with toggle button for neo.bullx.io",
+  "permissions": [
+    "storage",
+    "*://*.bullx.io/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/bullx-logo.png"
+  },
+  "icons": {
+    "16": "icons/bullx-logo.png",
+    "32": "icons/bullx-logo.png",
+    "48": "icons/bullx-logo.png",
+    "128": "icons/bullx-logo.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*.bullx.io/*"],
+    "css": ["dark-theme.css"],
+    "js": ["content.js"]
+  }]
+}

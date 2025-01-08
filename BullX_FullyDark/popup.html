@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 16px;
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+    }
+    
+    .logo {
+      width: 120px;
+      display: block;
+      margin: 0 auto 10px;
+      border-radius: 12px;
+    }
+
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0 15px;
+      color: #ffffff;
+    }
+    
+    .toggle-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 34px;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    
+    input:checked + .slider {
+      background-color: #4CAF50;
+    }
+    
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+  </style>
+</head>
+<body>
+  <img src="icons/bullx-logo.png" class="logo" alt="Bullx Logo">
+  <div class="title">BullX Dark Switcher</div>
+  <div class="toggle-container">
+    <label class="toggle-switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

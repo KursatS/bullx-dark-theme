@@ -1,0 +1,91 @@
+/* Base Elements */
+.dark-theme body, 
+.dark-theme div, 
+.dark-theme section, 
+.dark-theme nav, 
+.dark-theme aside, 
+.dark-theme footer, 
+.dark-theme header {
+    background-color: #000 !important;
+}
+
+/* Typography */
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5, 
+.dark-theme h6, 
+.dark-theme p, 
+.dark-theme span, 
+.dark-theme a, 
+.dark-theme li, 
+.dark-theme td {
+    color: #fff !important;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Media Elements */
+.dark-theme img, 
+.dark-theme svg, 
+.dark-theme canvas {
+    background-color: transparent !important;
+    z-index: 1;
+}
+
+/* Table Styles */
+.dark-theme .b-table-row {
+    background-color: #000 !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark-theme .b-table-cell {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* Button Styles */
+.dark-theme .ant-btn-text,
+.dark-theme .ant-btn.ant-btn-text,
+.dark-theme .ant-btn.ant-btn-default,
+.dark-theme button.flex.items-center {
+    background-color: #000 !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+.dark-theme .ant-btn.ant-btn-text svg {
+    fill: url(#paint0_linear_16268_24639) !important;
+}
+
+.dark-theme .ant-btn.ant-btn-default svg,
+.dark-theme button.flex.items-center svg {
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+
+.dark-theme .ant-btn.ant-btn-text span,
+.dark-theme .ant-btn.ant-btn-default .text-grey-200,
+.dark-theme button.flex.items-center .text-green-600 {
+    color: #fff !important;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Progress Bar */
+.dark-theme .ant-progress-inner {
+    background-color: #000 !important;
+}
+
+/* Modal */
+.dark-theme .ant-modal-wrap.ant-modal-centered {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+/* Pump Card Hover Exception */
+.dark-theme .pump-card-hover,
+.dark-theme .pump-card-hover * {
+    background-color: initial !important;
+    color: initial !important;
+    border-color: initial !important;
+    text-shadow: initial !important;
+}
