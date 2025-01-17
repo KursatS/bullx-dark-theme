@@ -14,4 +14,5 @@
 ---
 
 ## 🛠️ Installation
-
+"CHROME" : https://chromewebstore.google.com/detail/bullx-dark-theme/hfkimpcngfaigpfcbdimaankhjpgdhkb
+"FIREFOX" : https://addons.mozilla.org/tr/firefox/addon/bullx-dark-theme/
