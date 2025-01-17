@@ -1,4 +1,4 @@
-# BullX Dark Theme Chrome Extension
+# BullX Dark Theme Extension
 ![bullxdarktheme](https://github.com/user-attachments/assets/3bfc191b-d4bb-4972-85ca-120fcfa3d217)
 
 ## 🌌 Overview
